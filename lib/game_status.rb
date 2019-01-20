@@ -5,8 +5,8 @@ end
 
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
-  [3,4,5]
   [0,1,2]
+  [3,4,5]
   [6,7,8]
   [2,5,8]
   [7,4,1]
