@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   hold_array = []
-  
+
   WIN_COMBINATIONS.each do |combo|
     combo.each do |index|
     hold_array << board[index] if position_taken?(board, index)
@@ -38,7 +38,7 @@ end
 def draw?(board)
   if full?(board) && !won?(board)
     return true
-  else 
+  else
     return false
   end
 end
@@ -64,5 +64,5 @@ def winner(board)
   end
   nil
 end
-  
+
   
